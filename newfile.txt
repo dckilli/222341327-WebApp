@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 "This is a new file." 
+=======
+hello
+>>>>>>> bd3ca097c07243bf3b2a8364b6f3f75e36d25b53
