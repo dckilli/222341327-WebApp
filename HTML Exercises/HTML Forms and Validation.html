@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms and Validations</title>
+
+</head>
+<body>
+    <h1>User Registration Form</h1>
+
+    <form action="#" method="post"
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required pattern="[A-Za-z\s]{3,}" title="Enter a valid name (minimum 3 characters, letters and spaces only)">
+
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><required minlength="10">
+
+        <br>
+
+        <label>Gender:</label>
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+
+        <br>
+
+        <label><input type="checkbox" name="acceptTerms" required> Accept Terms and Conditions</label>
+
+        <br>
+
+        <input type="submit" value="Submit">
+</form>
+        
+    
+</body>
+</html>
