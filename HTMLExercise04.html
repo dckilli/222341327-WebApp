@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Docu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootsrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -22,23 +23,15 @@
             background-color: #eee;
             padding: 10px;
         }
-
         nav ul {
             margin: 0;
             padding: 0;
             list-style-type: none;
         }
-
         nav ul li {
             display: inline;
             margin-right: 10px;
         }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #333;
-        }
-
         nav ul li a:hover {
             color: #000;
         }
@@ -68,7 +61,6 @@
             width: 100%;
             border-collapse: collapse;
         }
-
         th, td {
             border: 1px solid #ddd;
             padding: 8px;
@@ -83,100 +75,124 @@
 </head>
 <body>
     <header>
+
         <h1>LINKS</h1>
         <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia quia accusamus neque officiis harum! Vero veritatis repellendus sunt hic quia iure dolorem rerum, doloremque dignissimos aut veniam fugiat provident atque.</P>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="home">
         <h1>Welcome to Our Website!</h1>
-        <p>This is the home section. You can learn more about us and contact us through the navigation links above.</p>
+        <p>This is the home section. Yo can learn more about us and contact us through the navigation links above.</p>
     </section>
 
     <section id="about">
         <h1>About Us</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Sed ac ipsum quis velit ullamcorper finibus. Sed consectetur vehicula odio, eu finibus mi varius in. Donec ultrices elit nec nibh dictum, sit amet lacinia lectus finibus.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum eveniet non, quaerat reprehenderit, magnam, enim harum doloribus debitis molestiae beatae eaque nisi eligendi aut sequi dolorem provident quisquam commodi perferendis.</p>
+        <p>We provide various services such as <abbr title="Viewing Entertainment">VE</abbr>and <abbr title="For Fun Only">FFO</abbr.</p>
+        <p>Citations: According to <cite>Wikipedia</cite>, Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
     </section>
 
     <section id="contact">
         <h1>Contact Us</h1>
-        <p>Feel free to contact us through the following:</p>
+        <p>Feel free to contact us through the following:</p> 
         <ul>
-            <li>Email: info@example.com</li>
-            <li>Phone: 123-456-7890</li>
+            <li>Email: <a href="mailto:wiki@gmail.com">wiki@gmail.com</a></li>
+            <li>Phone: 09756896034</li>
         </ul>
     </section>
 
-    <section>
-        <h2>User Registration Form</h2>
+        <figure>
+            <img src="image.jpg.jfif" alt="Sunset - A beautiful sunset">
+            <figcaption>This is a beautiful sunset.</figcaption>
+        </figure>
 
-        <form action="#" method="post">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required pattern="[A-Za-z\s]{3,}" title="Enter a valid name (minimum 3 characters, letters and spaces only)">
-            <br>
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password" required minlength="10">
-            <br>
-            <label>Gender:</label>
-            <label><input type="radio" name="gender" value="male"> Male</label>
-            <label><input type="radio" name="gender" value="female"> Female</label>
-            <br>
-            <label><input type="checkbox" name="acceptTerms" required> Accept Terms and Conditions</label>
-            <br>
-            <input type="submit" value="Submit">
-        </form>
-    </section>
+        
 
-    <section>
-        <h2>User Information Table</h2>
+        <section>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Age</th>
-                    <th>City</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Jane</td>
-                    <td>30</td>
-                    <td>Los Angeles</td>
-                </tr>
-                <tr>
-                    <td>John</td>
-                    <td>25</td>
-                    <td>New York</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+            <h2>User Registration Form</h2>
 
-    <section>
-        <h2>Audio Example</h2>
-        <audio controls>
-            <source src="The Day You Said Goodnight.mp3" type="audio/mp3">
-            Your browser does not support the audio tag.
-        </audio>
-    </section>
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required pattern="[A-Za-z\s]{3,}" title="Enter a valid name (minimum 3 characters, letters and spaces only)">
 
-    <section>
-        <h2>Video Example</h2>
-        <video controls width="640" height="360">
-            <source src="beach_waves_and_sunset.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </section>
+                <br>
+
+                <label for="password">Password:</label>
+                <input type="password"><required minlength="10">
+
+                <br>
+
+                <label>Gender:</label>
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+
+                <br>
+
+                <label><input type="checkbox" name="acceptTerms" required> Accept Terms and Conditions</label>
+
+                <br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section
+
+        <section>
+            <h2>User Information Table</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jane</td>
+                        <td>30</td>
+                        <td>Los Angeles</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>25</td>
+                        <td>New York</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Audio Example</h2>
+            <audio controls>
+                <source src="The Day You Said Goodnight .mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+        </section>
+
+        <section>
+            <h2>Video Example</h2>
+            <video controls width="640" height="360">
+                <source src="beach_waves_and_sunset (1080p).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <script src="script.js"></script>
+    
 
     <footer>
         &copy; 2024 Your Company
+
     </footer>
+    
+    
 </body>
 </html>
