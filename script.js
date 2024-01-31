@@ -5,6 +5,8 @@ function toggleContactSection() {
     } else {
         contactSection.style.display = 'none';
     }
-}
+} 
+
 
 document.querySelector('nav ul li:nth-child(3) a').addEventListener('click', toggleContactSection);
+
