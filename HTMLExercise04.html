@@ -83,19 +83,19 @@
     </header>
 
     <section id="home">
-        <h1>Welcome to our Website!</h1>
+        <h2>Welcome to our Website!</h2>
         <p>This is the home section. You can learn more about us and contact us through the navigation links above.</p>
     </section>
 
     <section id="about">
-        <h1>About Us</h1>
+        <h2>About Us</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur itaque ipsam iusto cumque saepe natus ullam fuga voluptas, inventore repellat vitae dicta a, necessitatibus voluptatem repellendus beatae culpa alias sit.</p>
         <p>We provide various services such as <abbr title="Viewing Entertainment">VE</abbr>and<abbr title="For Fun Only">FFO</abbr>.</p>
         <p>Citations: According to <cite>Wikipedia</cite>, Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
     </section>
 
     <section id="contact">
-        <h1>Contact Us</h1>
+        <h2>Contact Us</h2>
         <p>Feel free to contact us through the following:</p>
         <ul>
             <li>Email: <a href="mailto:wiki@gmail.com" id="contactEmail">wiki@gmail.com</a></li>
@@ -110,36 +110,36 @@
     
 
     <section id="registration">
-        <h1>User Registration Form</h1>
-        <form action="#" method="post"
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required pattern="[A-Za-z\s]{3,}" title="Enter a valid name (minimum 3 characters, letters and spaces only)">
-                <br>
-                <label for="password">Password:</label>
-                <input type="password"><required minlength="10">
-                <br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <br>
-                <label for="age">Age:</label>
-                <input type="number" id="age" name="age" required min="18" max="100">
-                <br>
-                <label for="birthdate">Birthdate:</label>
-                <input type="date" id="birthdate" name="birthdate" required>
-                <br>
-                <label>Gender:</label>
-                <label><input type="radio" name="gender" value="male"> Male</label>
-                <label><input type="radio" name="gender" value="female"> Female</label>
-                <br>
-                <label><input type="checkbox" name="acceptTerms" required> Accept Terms and Conditions</label>
-                <br>
-                <input type="submit" value="Submit">
-            </form>
+        <h2>User Registration Form</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required pattern="[A-Za-z\s]{3,}" title="Enter a valid name (minimum 3 characters, letters and spaces only)">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required minlength="10">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required min="18" max="100">
+            <br>
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+            <br>
+            <label>Gender:</label>
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label>
+            <br>
+            <label><input type="checkbox" name="acceptTerms" required> Accept Terms and Conditions</label>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
     </section>
 
     <section id="information">
         <h2>User Information Table</h2>
-        <table border="1">
+        <table style="border: 1px solid black;">
             <thead>
                 <tr>
                     <th>Name</th>
@@ -165,19 +165,18 @@
     <section id="audio">
         <h2>Audio Example</h2>
         <audio controls>
-            <source src="The Day You Said Goodnight .mp3" type="audio/mp3">
+            <source src="The_Day_You_Said_Goodnight.mp3" type="audio/mp3">
             Your browser does not support the audio tag.
         </audio>
     </section>
 
     <section id="video">
         <h2>Video Example</h2>
-            <video controls width="640" height="360">
-                <source src="beach_waves_and_sunset (1080p).mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+        <video controls width="640" height="360">
+            <source src="beach_waves_and_sunset.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </section>
-
 
     <footer id="footer">
         &copy; 2024 Your Company
@@ -186,9 +185,9 @@
     <script src="script.js"></script>
 
     <h2>Google Map</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3871.8863502178213!2d-122.41948568567125!3d37.77492977956175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808d62a61b0f%3A0x9379454c91b50e7d!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1643651100307!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3871.8863502178213!2d-122.41948568567125!3d37.77492977956175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808d62a61b0f%3A0x9379454c91b50e7d!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1643651100307!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
-        <h2>Twitter Feed</h2>
-        <a class="twitter-timeline" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <h2>Twitter Feed</h2>
+    <a class="twitter-timeline" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js"></script>
 </body>
 </html>
