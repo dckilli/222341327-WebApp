@@ -1,14 +1,24 @@
-h1 {
-    background-color: #d018e0;
-            color: rgb(241, 244, 245);
-            padding: 10px;
-            font-size: larger;
-            margin: 0%;
-}
-        
 body {
-    
-        font-family: 'Courier New', Courier, monospace;
+        font-family: Arial, sans-serif;
 }
 
-    
+h1,h2,h3 {
+        font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+        
+}
+body {
+        color:rgb(6, 4, 2);
+        background-color: rgb(158, 74, 154);
+}
+
+h1 {
+        color: #009688;
+}
+.container {
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 20px;
+}
+p {
+        line-height: 1.5;
+}
